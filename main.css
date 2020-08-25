@@ -1,0 +1,30 @@
+img {
+  height: 320px;
+  width: 320px;
+}
+.octodex {
+  display: flex;
+  border: 1px solid green;
+}
+.octocat {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+}
+.authors img {
+  height: 25px;
+  width: 25px;
+}
+ul {
+  list-style-type: none;
+}
+.image-footer {
+  display: flex;
+}
+img {
+  border: 1px solid green;
+}
+.image-caption {
+  display: flex;
+  flex: end;
+}
