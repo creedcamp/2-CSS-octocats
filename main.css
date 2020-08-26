@@ -1,7 +1,7 @@
 img {
-  height: 320px;
-  width: 320px;
+  width: 100%;
 }
+
 .octodex {
   display: flex;
   border: 1px solid green;
@@ -10,6 +10,7 @@ img {
   display: flex;
   flex-direction: column;
   flex-grow: 5;
+  margin: 5px 10px;
 }
 .authors img {
   height: 25px;
@@ -20,11 +21,22 @@ ul {
 }
 .image-footer {
   display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
 img {
   border: 1px solid green;
 }
+ul .authors {
+  margin-left: -40px;
+}
 .image-caption {
   display: flex;
-  flex: end;
+  justify-content: flex-end;
+}
+.image-number {
+  color: grey;
+}
+.image-number:before {
+  content: "#";
 }
