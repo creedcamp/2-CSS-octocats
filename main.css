@@ -4,13 +4,15 @@ img {
 
 .octodex {
   display: flex;
-  border: 1px solid green;
+  flex-wrap: wrap;
 }
 .octocat {
   display: flex;
   flex-direction: column;
-  flex-grow: 5;
-  margin: 5px 10px;
+  flex: grow 5;
+  width: 270px;
+  height: 270px;
+  margin: 30px;
 }
 .authors img {
   height: 25px;
